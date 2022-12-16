@@ -1,0 +1,142 @@
+:root{
+  --index: calc(1vw + 1vh);
+  --text: #e7e7e0;
+}
+html,
+body {
+  margin: 0;
+}
+@font-face {
+	font-family: raleway_f;
+	src: url(../fonts/raleway-regular.woff2);
+}
+@font-face {
+	font-family: raleway_f;
+	src: url(../fonts/raleway-black.woff2);
+	font-weight: 900;
+}
+.parallax,
+.parallax__layer {
+  height: 1000px;
+}
+.parallax__layer {
+  position: fixed;
+  background-position: bottom center;
+  background-size: auto 1038px;
+  background-repeat: repeat-x;
+  width: 100%;
+  z-index: 10;
+}
+#parallax-0 {
+  background-image: url(/img/layer0.png);
+  background-color: #ffaf1b;
+}
+#parallax-1 {
+  background-image: url(/img/layer1.png);
+}
+#parallax-2 {
+  background-image: url(/img/layer2.png);
+}
+#parallax-3 {
+  background-image: url(/img/layer3.png);
+}
+#parallax-4 {
+  background-image: url(/img/layer4.png);
+}
+#parallax-5 {
+  background-image: url(/img/layer5.png);
+}
+#parallax-6 {
+  background-image: url(/img/layer6.png);
+}
+#parallax-7 {
+  background-image: url(/img/layer7.png);
+}
+#text1{
+  color: var(--text);
+  text-align: center;
+  margin-top: 170px;
+  text-transform: uppercase;
+  font-size: calc(var(--index) / 1.175);
+	letter-spacing: calc(var(--index) / 3.5);
+  text-shadow: 1px 0 10px #ffe474;
+}
+#text2{
+  color: var(--text);
+  text-align: center;
+  margin-top: 200px;
+  text-transform: uppercase;
+  font-size: calc(var(--index) * 2.5);
+  letter-spacing: calc(var(--index) / 2.25);
+  text-shadow: 1px 0 10px #ffe474;
+}
+#text3{
+  color: var(--text);
+  text-align: center;
+  margin-top: 290px;
+  text-transform: uppercase;
+  font-size: calc(var(--index) / 1.175);
+	letter-spacing: calc(var(--index) / 3.5);
+  text-shadow: 1px 0 10px #ffe474;
+}
+#parallax-8 {
+  background-image: url(/img/layer8.png);
+}
+.maincontent {
+  position: relative;
+  width: 100%;
+  min-height: 150vh;
+  z-index: 99;
+  background-color: #210002;
+}
+.conteiner{
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-bottom: 150px;
+}
+h2{
+  color: var(--text);
+  text-shadow: 0px 0 5px #ffe474;
+  padding-top: 120px;
+  font-size: calc(var(--index) * 2);
+}
+h3{
+  color: var(--text);
+  text-align: center;
+  text-shadow: 0px 0 5px #ffe474;
+  padding-top: 120px;
+  font-size: calc(var(--index) * 1);
+}
+.secondcont{
+  background-color: #5c1715;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 100px;
+  border-radius: 8px;
+}
+.secondcont img{
+  margin: 12px;
+  border-radius: 12px;
+}
+.copy {
+  margin-left: 44%;
+  margin-top: 290px;
+  margin-bottom: 2.5%;
+  color: var(--text);
+	position: absolute;
+	bottom: calc(var(--index) * 1);
+	opacity: .45;
+	font-size: calc(var(--index) * .75);
+	letter-spacing: calc(var(--index) / 37.5);
+}
+.copy2 {
+  margin-left: 46%;
+  margin-top: 290px;
+  margin-bottom: 1%;
+  color: var(--text);
+	position: absolute;
+	bottom: calc(var(--index) * 1);
+	opacity: .45;
+	font-size: calc(var(--index) * .75);
+	letter-spacing: calc(var(--index) / 37.5);
+}
