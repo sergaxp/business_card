@@ -1,0 +1,112 @@
+*
+{
+    box-sizing: border-box;
+}
+.wrapper
+{
+    width: 75%;
+    margin: 20px auto;
+    border: none;
+}
+header
+{
+    border: none;
+}
+.container
+{
+    display: flex;
+}
+img
+{
+    width: 100%;
+    text-align: center;
+}
+main
+{
+    width: 70%;
+    padding: 20px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right
+{
+    width: 30%;
+    margin-left: 20px;
+    padding: 20px;
+    border: none;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.tables{
+    border-collapse: collapse;
+}
+th
+{
+    background-color: rgb(231, 231, 231);
+}
+th, td 
+{
+    border: 4px solid black;
+    width: 9%;
+    text-align: center;
+
+}
+footer
+{
+    padding: 30px 0;
+    border: none;
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
+.block
+{
+    margin: 20px 0px 0px 0px;
+}
+.sitename
+{
+    margin-bottom: 10px;
+    font: 20px Arial;
+}
+nav
+{
+    display: flex;
+    width: 100%;
+    border: none;
+    background-color: orange;
+}
+nav a
+{
+    padding: 25px;
+    color: white;
+    text-decoration: none;
+    font: 15px Arial;
+    
+}
+nav a:hover, nav a:active
+{
+    color: red;
+    text-decoration: underline;
+}
+main h1
+{
+    font: 30px;
+    font: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main p
+{
+    margin: 10px 0;
+    text-align: justify;
+    font: 15px Arial;
+}
+.active
+{
+    text-decoration: underline;
+}
+
