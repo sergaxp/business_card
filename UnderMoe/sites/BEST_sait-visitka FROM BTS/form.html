@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="clearfix">
+            <a id="logo" href="index.html"><span class="pink">Сайт</span> <i>визитка</i></a>
+            <nav id="mainnav">
+                <ul>
+                 <li><a href="uslugi.html" style="color:white">Услуги</a></li>
+                 <li><a href="about.html" style="color:white">О нас</a></li>
+                 <li><a href="klienty.html" style="color:white">Клиенты</a></li>
+                 <li><a href="contact.html" style="color:white">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form action="" id="contact-form">
+                <div id="centroo">
+                    <label for="topic">Тема</label><br>
+                    <select name="topic" id="topic" required>
+                        <option value="1">Заказать услугу</option>
+                        <option value="2">Оставить отзыв/замечание</option>
+                        <option value="3">Предложить сотрудничество</option>
+                        <option value="4">Другое</option>
+                    </select>
+                </div>
+                <div id="centroo" class="form_item">
+                    <label for="name">Имя</label><br>
+                    <input name="name" id="name" type="text" placeholder="Billy Herrington" required>
+                </div>
+                <div id="centroo" class="form_item">
+                    <label for="e-mail">E-mail</label><br>
+                    <input name="e-mail" id="e-mail" type="email" placeholder="HerringtonBill@gmail.com" required>
+                </div>
+                <div id="centroo">
+                    <label for="tel">Телефон</label><br>
+                    <input name="tel" id="tel" type="tel" placeholder="+592-619">
+                </div>
+                <div id="centroo">
+                    <label for="fax">Факс</label><br>
+                    <input name="tel" id="tel" type="tel" placeholder="810-41-1234567890">
+                </div>
+                <div id="centroo">
+                    <label for="message">Текст сообщения</label><br>
+                    <textarea name="message" id="message" rows="15" rows="10" placeholder=" " required></textarea>
+                </div>
+                <div id="centroo" class="form_item">
+                    <input type="submit" value="Отправить">
+                </div>
+            </form>
+        </main>
+    </div>
+    <footer>
+        <p class="footer_block"><a href="form.html" style="color:white" class="napisat">Написать нам&#9650;</a></p>
+        <p class="footer_block">&copy; Новая компания</p>
+        <div class="footer_icons">
+            <a href="#" target="_blank"><img class="footer_img" src="img/instagram.png" alt="Инстаграм"></a>
+            <a href="#" target="_blank"><img class="footer_img" src="img/vk-social-logotype.png" alt="ВК"></a>
+            <a href="#" target="_blank"><img class="footer_img" src="img/facebook.png" alt="Фейсбук"></a>
+        </div>
+    </footer>
+</body>
+</html>
