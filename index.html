@@ -9,9 +9,12 @@
 
     <link rel="stylesheet" href="css/style.css">
 
+    <link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css' integrity='sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay' rel='stylesheet'/>
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
 
     <script src="js/script.js" defer></script>
+    
   
 </head>
 <body>
@@ -40,7 +43,7 @@
                     <a href="#about" id="navlast">ABOUT</a>
                     <a href="#company" id="navlast">COMPANY</a>
                     <a href="#work" id="navlast">WORK</a>
-                    <a href="https://vk.com/sergalaszer" target="_blank" id="navlast">CONTACT</a>
+                    <a href="#contact" id="navlast">CONTACT</a>
                 </nav>
             </div>
         </header>
@@ -71,6 +74,44 @@
                     <a target="_blank" href="https://www.figma.com/file/ZESQXUJFK2jBHtP5gU8sOy/СР-5_Пиносов-Сергей_П-23с?node-id=0%3A1&t=8TcoEugffEgSWXwP-0"><img src="img/src6.png" alt="site6"></a>
                 </div>
                 
+                <div class="screen5">
+                    
+                </div>
+
+                <div id="contact" class="screen4">
+                    <h2 id="work">Также</h2>
+                    <p>Связаться со мной можно по этой форме</p>
+                    <form action="" id="contact-form">
+                        <div id="centroo" class="form_item">
+                            <label id="textform" for="name">Ваше Имя</label><br>
+                            <input name="name" id="name" type="text" placeholder="Алег" required>
+                        </div>
+                        <div id="centroo" class="form_item">
+                            <label id="textform" for="e-mail">E-mail</label><br>
+                            <input name="e-mail" id="e-mail" type="email" placeholder="Aleg@mail.ru" required>
+                        </div>
+                        <div id="centroo">
+                            <label id="textform" for="tel">Телефон</label><br>
+                            <input name="tel" id="tel" type="tel" placeholder="88005553535">
+                        </div>
+                        <div id="centroo">
+                            <label id="textform" for="message">Текст сообщения</label><br>
+                            <textarea name="message" id="message" rows="15" rows="10" placeholder=" " required></textarea>
+                        </div>
+                        <div id="centroo">
+                            <label id="textform" for="radio">Как лучше всего с вами связаться?</label><br>
+                            <input type="radio" id="contactChoice1" name="contact" value="email">
+                            <label id="textform" for="contactChoice1">По e-mail</label>
+                            <input type="radio" id="contactChoice2" name="contact" value="phone">
+                            <label id="textform" for="contactChoice2">По телефону</label>
+                        </div>
+                        <br>
+                        <div id="centroo" class="form_item">
+                            <input type="submit" value="Отправить">
+                        </div>
+                    </form> 
+                </div>
+
             </main>
         </div>
         <footer>
